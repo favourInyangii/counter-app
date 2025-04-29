@@ -1,27 +1,13 @@
-/* src/App.css */
-
-/* General container */
 .App {
-  text-align: center;  /* Center align the text */
-  margin-top: 50px;  /* Add some margin on top */
-}
+  text-align: center;
+  margin-top: 50px;
+background-image: url('bg.jpg');
 
-/* Heading styles */
-.App h1 {
-  color: blue;  /* Blue color for the title */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
 }
-
-/* Button styles */
-button {
-  margin: 10px;  /* Space between buttons */
-  padding: 10px 20px;  /* Button size */
-  font-size: 16px;  /* Text size */
-  cursor: pointer;  /* Change cursor to pointer when hovering */
-  border: none;  /* Remove border */
-  border-radius: 5px;  /* Rounded corners */
-}
-
-/* Hover effect for buttons */
-button:hover {
-  background-color: #f0f0f0;  /* Change background color on hover */
-}
+   
